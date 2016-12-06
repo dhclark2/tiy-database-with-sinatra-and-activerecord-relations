@@ -1,0 +1,40 @@
+X landing page
+  X some descriptive text
+  - Add more description
+- Nav bar
+  X Home Page
+  X Employees Page
+  - Courses Page
+  -
+- Courses Table
+    name
+    subject
+    Instructor
+    start_date
+    end_date
+    intensive (yes/no)
+    credit hours
+    lab? (yes/no)
+
+
+X Employees link (to an employees URL)
+X Employess table
+    name
+    address
+    position (student or instructor)
+    salary
+    slack
+    github
+    phone
+    Link to show
+++  Enrolled in Courses? - teacher => teaching _____        - student =>   enrolled?
+
+X  Add Search bar on Employees Page to nav bar
+X  New Search .erb
+      X use search feature from previous assignment for partial name, slack, or github
+X  Add Show More .erb for each employee in table
+      X  Displays that employee's info
+      X Page should have an "Edit" button
+        i.  New page with editable fields (like from new employee) filled in.
+        ii. Cancel button, takes back to the previous page
+        iii. Submit saves the information and returns user back to employees index
